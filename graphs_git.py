@@ -149,8 +149,6 @@ for date in all_dates:
     for person in stats:
         t += stats[person][datetime.strftime(date, '%Y-%m-%d')]
 
-    # t1 += stats["Kamila Mendroch"][datetime.strftime(date, '%Y-%m-%d')]
-
     g_total[datetime.strftime(date, '%Y-%m-%d')] = t
     g_total_k[datetime.strftime(date, '%Y-%m-%d')] = t1
 
